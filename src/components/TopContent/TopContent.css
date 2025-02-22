@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.topContent {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 80px; 
+    height: 100vh;
+}
+
+.topContent__container {
+    max-width: 500px; 
+    text-align: right; 
+    padding: 20px; 
+}
+
+.content {
+    position: absolute;
+    left: 50px; 
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 1000px; 
+    text-align: left;
+    font-size: 20px; 
+    line-height: 1.5; 
+}
+
+
+.topContent__container>a>button{
+    margin-top:30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+
+}
+
+.topContent__container>h1{
+    font-size:50px;
+    font-style: "Montserrat",san-serif;
+}
+
+.topContent__downloadbutton
+{
+    color:black;
+    background-color: pink;
+    font-size: 20px;
+    padding:10px 30px;
+    font-style: "Montserrat",san-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.topContent__workbutton
+{
+    color: white;
+    border:1px solid white !important;
+    background-color: transparent;
+    font-size: 20px;
+    padding:10px 30px;
+    font-style: "Montserrat",san-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topContent__downloadbutton:hover{
+    color:pink;
+    background-color: black;
+    font-weight: 600px;
+}
+
+.topContent__workbutton:hover{
+    color:black;
+    background-color: pink;
+    font-weight: 600px;
+}
