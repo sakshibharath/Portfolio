@@ -8,19 +8,24 @@ const Header = () => {
         <h1>FrontEnd<span>Developer</span></h1>
       </div>
       <div className="header__right">
-        <Link to="about" smooth={true} duration={500}>
+        <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
         <h4>
             About Me
         </h4>
         </Link>
-        <Link to="skills" smooth={true} duration={500}>
-        <h4>
+        <Link to="skills" spy={true} smooth={true} offset={-100} duration={500}>
+          <h4>
             Skills
-        </h4>
+          </h4>
         </Link>
-        <Link to="projects" smooth={true} duration={500}>
+        <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>
         <h4>
            Projects
+        </h4>
+        </Link>
+        <Link to="contacts" spy={true} smooth={true} offset={-100} duration={500}>
+        <h4>
+           Contacts
         </h4>
         </Link>
       </div>

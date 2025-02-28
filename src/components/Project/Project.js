@@ -4,10 +4,11 @@ import {Link} from "react-scroll"
 
 const Project = ({ img, title, desc, link }) => {
   const [show, setShow] = useState(false);
-
+<h4>PROJECTS</h4>
   return (
+    
     <a href={link ? link : "#"} target="_blank" rel="noopener noreferrer">
-      <div 
+  <div 
         className="project" 
         onMouseOver={() => setShow(true)} 
         onMouseLeave={() => setShow(false)}

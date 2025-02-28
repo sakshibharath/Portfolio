@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.contacts {
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contacts__title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contacts__info {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.contacts__info a {
+    color: pink; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.contacts__info a:hover {
+    text-decoration: underline;
+    color: #ff69b4; 
+}
+
+
+.contacts__info a:visited {
+    color: pink;
+}
+
+
+.contacts__info a:active {
+    color: #ff1493; 
+}
